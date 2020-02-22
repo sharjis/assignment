@@ -1,0 +1,234 @@
+body{
+    margin: 0;
+    font-family: 'Poppins' sans-serif;
+    color: #777;
+}
+#one{
+    margin: 5px 40px;
+}
+
+.black-shadow{
+    color: rgb(80, 72, 72);
+    font-size: 35px;
+}
+.pink{
+    color: #ec4c7a;
+    font-size: 40px;
+}
+.first-section{
+    background-image: url(images/header-bg.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 100px;
+}
+.header-top{
+    padding-top: 100px;
+}
+section{
+    height: 570px;
+    
+}
+
+.half-left{
+    width: 40%;
+    float: left;
+    margin-left: 6%;
+    padding-left: 4%;
+    padding-top: 150px;
+}
+.half-left a{
+    transition: 0.5s;
+
+}
+.half-left a:hover{
+    background: ec4c7a;
+    color: white;
+    box-shadow: 0 0 5px #ec4c7a,
+                0 0 25px #ec4c7a,
+                0 0 50px #ec4c7a,
+                0 0 200px #ec4c7a;
+}
+
+.half-right{
+    float: left;
+    width: 40%;
+    margin-left: 6%;
+    padding-left: 4%;
+}
+.half-right img{
+    width: 100%;
+}
+.first-button{
+    color: white;
+    background-color: #ec4c7a;
+    padding: 15px 50px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.half-left p{
+    padding-bottom: 40px;
+    color: #777;
+    font-size: 18px;
+}
+.biography-img{
+    padding-top: 80px;
+}
+.biography-txt{
+    padding-top: 250px;
+}
+.second-section{
+    background-image: url(images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-bottom: 150px;
+}
+.work-item-image{
+    float: left;
+}
+.work-hd-txt{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.work-hd-txt h2{
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.single-work{
+    float: left;
+    width: 30%;
+    padding-left: 30px;
+    position: relative;
+    overflow: hidden;
+    transition: 0.5s;
+}
+.single-work:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5);
+
+}
+.single-work img{
+    width: 100%;
+}
+.work-portfolio{
+    background-image: url(images/latest-work-bg.png);
+    background-size: cover;
+    background-position: center center;
+}
+.footer-area{
+    text-align: center;
+    padding-bottom: 100px;
+}
+.client-txt h2{
+    padding-bottom: 30px;
+    font-size: 35px;
+    color: #ec4c7a;
+}
+.client-txt p{
+    padding-bottom: 100px;
+}
+.client-description p{
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.client-name h4{
+    font-size: 20px;
+}
+.footer-section{
+    background-image: url(images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+.my-info{
+    padding-bottom: 100px;
+}
+.my-info button{
+    padding: 15px 90px;
+    background: #ec4c7a;
+    border-radius: 5px;
+    transition: 0.2s;
+    overflow: hidden;
+    position: relative;
+}
+.my-info button:hover{
+    z-index: 1;
+    transform: scale(1.25);
+    box-shadow: 0 25px 40px rgba(0,0,0,.5)
+}
+.my-info button small{
+    font-size: 15px;
+    color: white;
+}
+.my-info button h3{
+    font-size: 25px;
+    color: white;
+}
+.social-icon{
+    position: absolute;
+    transform: translate(-2%);
+    text-align: center;
+    width: 100%;
+    
+
+}
+.btn{
+    display: inline-block;
+    width: 90px;
+    height: 90px;
+    background: #f1f1f1;
+    margin: 10px;
+    border-radius: 30%;
+    box-shadow: 0 5px -5px #00000070;
+    color: #3498db;
+    overflow: hidden;
+    position: relative;
+}
+.btn i{
+    line-height: 90px;
+    font-size: 26px;
+    transition: 0.2s linear;
+}
+.btn:hover i{
+    transform: scale(1.3);
+    color: #f1f1f1;
+}
+.btn::before{
+    content:"";
+    position: absolute;
+    width: 120%;
+    height: 120%;
+    background: #3498db;
+    transform: rotate(45deg);
+    left: -110%;
+    top: 90%;
+}
+.btn:hover::before{
+    animation: aaa 0.7s 1;
+    top: -10%;
+    left: -10%;
+}
+@keyframes aaa{
+    0%{
+        left: -110%;
+        top: 90%;
+    }50%{
+        top: -10%;
+        left: -10%;
+    }100%{
+        top: 10%;
+        left: -30%;
+    }
+}
+.footer{
+    margin-top: 200px;
+    font-size: 14px;
+}
+.footer p{
+    padding-bottom: 20px;
+}
+
